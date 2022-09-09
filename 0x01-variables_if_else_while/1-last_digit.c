@@ -3,6 +3,8 @@
 #include <time.h>
 /* more headers goes there */
 /* betty style doc for function main goes there */
+/* main - print the last digits of the random*/
+/* Return: Always 0 (Success) */
 int main(void)
 {
 int n, digit;
