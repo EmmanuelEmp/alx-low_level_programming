@@ -3,7 +3,7 @@
 #include <time.h>
 /* more headers goes there */
 /* betty style doc for function main goes there */
-/* main - prints the last digits of the randomly generated numberand whether it is greater 5, less than 6, or 0. */
+/* main - prints the last digits of the randomly generated number */
 /* Return: Always 0 (Success) */
 int main(void)
 {
