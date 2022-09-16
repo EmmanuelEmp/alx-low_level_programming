@@ -1,20 +1,4 @@
-
-sirsamuelayodele
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x04-more_functions_nested_loops/100-prime_factor.c
- 
- 
-26 lines (22 sloc)  376 Bytes
- #include <stdio.h>
+#include <stdio.h>
 #include <math.h>
 
 /**
