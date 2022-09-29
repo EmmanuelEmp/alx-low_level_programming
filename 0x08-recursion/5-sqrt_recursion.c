@@ -1,48 +1,41 @@
 #include "main.h"
-
 /**
- * power_operation - returns the natural square root of a number.
- * @n: input number.
- * @a: iterator.
- * Return: square root or -1
- * _sqrt_recursion - find natural square root
- * @n: int
- * Return: int
+ * _evaluate - evaluate function sqrt
+ * @i: integer
+ * @n: integer
+ * Return: evaluate sqrt
  */
 
-int power_operation(int n, int a)
-int _sqrt_recursion(int n)
+int _evaluate(int i, int n)
 {
-	if (a % (n / a) == 0)
-	{
-		if (a * (n / a) == n)
-			return (a);
-		else
-			return (-1);
-	}
-	return (0 + power_operation(n, a + 1));
-return (square(n, 1));
+	/*Evaluate function*/
+	if (n == 0 || n == 1)
+		return (n);
+
+	else if (i * i < n)
+		return (_evaluate(i + 1, n));
+
+	else if (i * i == n) /*Condiction base*/
+		return (i);
+
+	return (-1);
 }
 
 /**
- * _sqrt_recursion - returns natural square root of a number.
- * @n: input number.
- * Return: natural square root.
- * square - find square root
- * @n: int to find square root
- * @val: square root
- * Return: int
+ * _sqrt_recursion - evaluate sqrt
+ * @n: integer
+ * Return: Sqrt_recursion
  */
 
-int square(int n, int val)
-{
-
 int _sqrt_recursion(int n)
-if (val * val == n)
-	return (val);
-else if (val * val < n)
-	return  (square(n, val + 1));
-else
-	return (-1);
+{
+	int i = 0;
 
+	if (i < 0) /*If n is negative*/
+		return (-1);
+
+	else
+	{
+		return (_evaluate(i, n)); /*Recursive call*/
+	}
 }
