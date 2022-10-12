@@ -24,7 +24,7 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_div - calculates the products of two integers
+ * op_mul - calculates the products of two integers
  * @a: first integer
  * @b: second integer
  *
